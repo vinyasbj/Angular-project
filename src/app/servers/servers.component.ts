@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./servers.component.scss']
 })
 export class ServersComponent implements OnInit {
-
+  allowNewServer = false;
   constructor() { }
 
   ngOnInit() {
